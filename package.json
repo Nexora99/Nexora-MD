@@ -1,7 +1,7 @@
 {
     "name": "nexora-v2",
     "version": "1.0.0",
-    "main": "backend/bots/index.js",
+    "main": "index.js",
     "scripts": {
         "start": "node bot.js",
         "bot": "node bot.js",
