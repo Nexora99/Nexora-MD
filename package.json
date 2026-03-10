@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "start": "node bot.js",
-        "bot": "node bot.js",
-        "bot:win": "node backend/bots/bot.js",
+        "start": "node telbot.js",
+        "bot": "node telbot.js",
+        "bot:win": "node backend/bots/ bot.js",
         "clean:auth": "node -e \"require('fs').rmSync('backend/bots/auth_info',{recursive:true,force:true});console.log('auth_info cleaned')\"",
         "bot:fresh": "npm run clean:auth && npm run bot"
     },
