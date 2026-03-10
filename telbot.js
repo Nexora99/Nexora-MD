@@ -1,3 +1,4 @@
+console.log("Bot is running ✅");
 ﻿const TelegramBot = require("node-telegram-bot-api");
 const {
     default: makeWASocket,
